@@ -56,17 +56,36 @@
     font-family: 'Lato';
 }
 
-.card {
+.carte {
     transition: scale 0.3s;
 }
-.card:hover {
+.carte:hover {
     scale: 1.03;
     color: rgba(255, 123, 0, 0.926);
     background: rgba(255, 123, 0, 0.926);
 }
 
-.titreSixAns {
+.titre {
     font-family: 'AmaticsSC';   
+}
+
+.carteConfiance {
+    background: rgba(255, 123, 0, 0.926);
+    transition: scale 0.5s;
+}
+
+.carteConfiance .card-title {
+    font-family: 'AmaticsSC';
+}
+
+.carteConfiance .card-text {
+    font-family: 'Lato';
+}
+
+.carteConfiance:hover {
+    background: white;
+    color: rgba(255, 123, 0, 0.926);
+    scale: 1.05;
 }
 
 @media only screen and (min-width: 1000px) {
