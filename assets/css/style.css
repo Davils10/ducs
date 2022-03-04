@@ -14,7 +14,7 @@
 }
 
 #menuNavigation li a{
-    color: rgba(0, 0, 0, 0.782);
+    color: rgba(0, 0, 0, 0.789);
     font-family: 'Lato';
 }
 
@@ -29,7 +29,19 @@
     padding: 0%;
 }
 
-#enSavoirPlus {
+#enSavoirPlus, #etapeSuivante {
     background: rgb(255, 153, 0);
+    font-family: 'Lato';
+}
+
+#enSavoirPlus:hover, #etapeSuivante:hover {
+    background: rgba(255, 123, 0, 0.926);
+}
+
+#votreDevis {
+    font-family: 'AmaticsSC';
+}
+
+#gratuit {
     font-family: 'Lato';
 }
