@@ -105,4 +105,14 @@
         left: 50%;
         position: absolute !important;
     }
+    .lahatraAnjara {
+        height: 50vh;
+    }
+    
+    .anjara {
+        transform: translate(-50%, -54%) !important;
+        top: 0 !important;
+        left: 50%;
+        position: absolute !important;
+    }
 }
