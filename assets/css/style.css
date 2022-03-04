@@ -64,3 +64,16 @@
     color: rgba(255, 123, 0, 0.926);
     background: rgba(255, 123, 0, 0.926);
 }
+
+.titreSixAns {
+    font-family: 'AmaticsSC';   
+}
+
+@media only screen and (min-width: 1000px) {
+    .lahatra {
+        transform: translate(-50%, -50%) !important;
+        top: 0 !important;
+        left: 50%;
+        position: absolute !important;
+    }
+}
