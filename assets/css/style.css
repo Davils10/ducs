@@ -3,6 +3,10 @@
     src: url('../fonts/Lato-Bold.ttf');
 }
 
+@font-face {
+    font-family: 'AmaticsSC';
+    src: url('../fonts/AmaticSC-Bold.ttf');
+}
 
 * {
     padding: 0%;
@@ -11,5 +15,21 @@
 
 #menuNavigation li a{
     color: rgba(0, 0, 0, 0.782);
+    font-family: 'Lato';
+}
+
+#diagImmobilier {
+    background: url('../images/slide2.png') center/cover no-repeat;
+    height: 50vh;
+}
+
+#titreDiag1 {
+    font-family: 'AmaticsSC';
+    font-size: 3rem;
+    padding: 0%;
+}
+
+#enSavoirPlus {
+    background: rgb(255, 153, 0);
     font-family: 'Lato';
 }
