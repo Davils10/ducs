@@ -23,25 +23,35 @@
     height: 50vh;
 }
 
-#titreDiag1 {
+#modelisationBatiment {
+    background: url('../images/slide4.png') center/cover no-repeat;
+    height: 50vh;
+}
+
+#auditsEnergetiques {
+    background: url('../images/slide6.png') center/cover no-repeat;
+    height: 50vh;
+}
+
+.titreDiag {
     font-family: 'AmaticsSC';
     font-size: 3rem;
     padding: 0%;
 }
 
-#enSavoirPlus, #etapeSuivante {
+.enSavoirPlus, .etapeSuivante {
     background: rgb(255, 153, 0);
     font-family: 'Lato';
 }
 
-#enSavoirPlus:hover, #etapeSuivante:hover {
+.enSavoirPlus:hover, .etapeSuivante:hover {
     background: rgba(255, 123, 0, 0.926);
 }
 
-#votreDevis {
+.votreDevis {
     font-family: 'AmaticsSC';
 }
 
-#gratuit {
+.gratuit {
     font-family: 'Lato';
 }
