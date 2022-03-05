@@ -124,3 +124,18 @@
 #footer2 .card {
     border: none;
 }
+
+#footer3 {
+    background: url('../images/Bgcontact.png') center/cover no-repeat;
+    background-size: auto;
+}
+
+#footer3 .row {
+    background: rgba(0, 0, 0, 0.919);
+    background-size: auto;
+}
+
+.lastText {
+    color: rgba(255, 123, 0, 0.926);
+    text-decoration: none;
+}
