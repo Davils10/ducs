@@ -93,7 +93,7 @@
     scale: 1.05;
 }
 
-#paiementLigne ul li {
+#paiementLigne ul li, #footer2 ul li {
     list-style-type: none;
     font-family: 'Lato';
 }
@@ -108,11 +108,19 @@
     .lahatraAnjara {
         height: 50vh;
     }
-    
+
     .anjara {
         transform: translate(-50%, -54%) !important;
         top: 0 !important;
         left: 50%;
         position: absolute !important;
     }
+}
+
+#footer1 p {
+    font-family: 'Lato';
+}
+
+#footer2 .card {
+    border: none;
 }
